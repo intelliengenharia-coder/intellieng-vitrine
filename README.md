@@ -8,6 +8,19 @@ decisões ficam no próprio aparelho e saem pelo botão "Copiar decisões para o
 Gerado por `Maquina-de-Conteudo/11-Estudio-Autoral/publicar.py --web`, no repositório
 `intellieng-cerebro`. Não edite `index.html` à mão: ele é sobrescrito a cada publicação.
 
+## O que tem em `artes/`
+
+Duas cópias de cada peça, nenhuma delas para postar:
+
+| Arquivo | Para que serve |
+|---|---|
+| `<id>-mini.webp` | 560 px, é a que aparece na grade do catálogo |
+| `<id>.jpg` | tamanho cheio, é a que aparece quando o Jhone amplia |
+
+O original de postagem é o PNG, que o `entregar.py` copia para o ownCloud em
+`Design Grafico › Estudio-Autoral › AAAA-MM-DD`. As duas cópias daqui são comprimidas
+de propósito, para o painel abrir rápido no 4G da obra.
+
 ## Atualizar
 
 ```bash
